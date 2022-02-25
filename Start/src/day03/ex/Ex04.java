@@ -23,7 +23,7 @@ public class Ex04 {
 		double tmp = total;				// --2
 		
 		int day = (int)tmp;
-		tmp -= day;
+		
 		
 		
 		// 0.2426을 초로 변환

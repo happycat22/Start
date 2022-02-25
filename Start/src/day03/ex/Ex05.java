@@ -1,6 +1,6 @@
 package day03.ex;
 
-public class Test05 {
+public class Ex05 {
 	public static void main(String[] args) {
 		int no1 = 10;
 		int no2 = 20;
