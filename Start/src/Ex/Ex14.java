@@ -24,7 +24,22 @@ package Ex;
 public class Ex14 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int a, b, c, d;
+		int result = 0;
+		for(a = 3; a<=9;a++) {
+			d = a -2;
+			for(b=2; b<10;b++) {
+				if(b==a || b==d) {
+					continue;
+					// 이 경우는 같은 숫자가 발생하는 경우므로 조건에 맞지 않으므로 다음 번호를 추출해서
+					// 다른 조건을 비교해야한다. 
+					
+				}
+				
+				// 이라인을 실행하는 경우는
+				// b가 a,d와 같은 경우다.
+			}
+		}
 
 	}
 

@@ -8,11 +8,34 @@ package day06;
  보너스 ]
 		3 ~ 100 사이의 숫자 중에서 소수만 모두 출력하세요.
  */
+
+import java.util.*;
 public class Ex01 {
 
 	public static void main(String[] args) {
 		
-
+		Scanner sc = new Scanner(System.in);
+		System.out.println("3~100사이의 정수를 입력하세요.");
+		int num = sc.nextInt();
+		
+		int count=0;
+		for(num = 3;num<=100;num++) {
+			for(int j=3;j<=num; j++) {
+				if(num%j==0) {
+					count ++;
+					if(count == 1) {
+						System.out.println("소수입니다.");
+					} else if(count != 1){
+						System.out.println("소수가 아닙니다.");
+				}
+			}
+		}
+			
+				
+			
 	}
+		
+
+}
 
 }
