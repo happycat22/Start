@@ -8,17 +8,21 @@ package day05;
 
 public class Test08 {
 	public static void main(String[] args) {
-		int[] 
-				
-		int len = 
-		for(int i = 0; i < len; i++) {
-			System.out.println((i +1) + "번째 데이터: " + num[i]);
+		int[] num = {1, 2, 3, 4, 5, 6}; // 1부터 6까지 관리하는 정수배열
+		
+		// 배열 갯수 알아내고
+		int len = num.length;
+		
+		for(int i = 0 ; i < len ; i++ ) {
+			System.out.println((i + 1) + " 번째 데이터 : " + num[i]);
 		}
-	}
-	
-	//향상된 for명령으로 처리
-	for(int no : num) {
-		System.out.println("###" + no);
+		
+		// 향상된 for 명령으로 처리
+		for(int no : num) {
+			System.out.println("### " + no);
+		}
+		
+		System.out.println();
 		
 	}
 	
