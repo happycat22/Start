@@ -23,7 +23,7 @@ public class Ex12 {
 		Scanner sc = new Scanner(System.in);
 		String num = sc.nextLine();
 
-		if(num.StringAt(0) == ))
+//		if(num.StringAt(0) == ))
 	}
 
 }
