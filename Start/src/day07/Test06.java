@@ -16,6 +16,11 @@ public class Test06 {
 			num[i] = i +1;
 		}
 		
+		for(int no : num) {
+			System.out.print(no + " | ");
+		}
+		System.out.println();
+		
 		// 배열 준비 완.
 		// 임의의 숫자 두 개를 랜덤으로 섞는다.(swapping)
 		

@@ -23,3 +23,8 @@ public class Test03 {
 		}
 	}
 }
+
+
+//	for(int i = 0; i<ch.length; i++) {
+//ch[i] = (char)('A' + i); 해도 값 똑같이 나옴
+

@@ -19,6 +19,7 @@ public class Test05 {
 //			2. 과목점수를 만들어서 입력한다.
 			int score = (int)(Math.random()* 41 + 60); // 41 = 100 - 60 + 1
 			subj[i] = score;
+//			subj[i] = (int)(Math.random()* 41 + 60); // 41 = 100 - 60 + 1
 		}
 		
 		System.out.println(("1. " + Arrays.toString(subj)));
